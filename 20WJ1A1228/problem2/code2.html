@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Schedule App</title>
+    <link rel="stylesheet" href="path-to-your-css-file.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/all-trains">All Trains</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content area -->
+    <div class="content">
+        <!-- Home page content -->
+        <div id="home">
+            <h1>Welcome to Train Schedule App</h1>
+            <p>No registration required to view train schedules.</p>
+        </div>
+
+        <!-- All Trains page content -->
+        <div id="all-trains">
+            <h2>All Trains</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Train Name</th>
+                        <th>Departure Time</th>
+                        <th>Seats Available</th>
+                        <th>Price</th>
+                        <th>Delay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Populate table rows dynamically with JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Single Train page content -->
+        <div id="single-train">
+            <h2>Train Details</h2>
+            <div>
+                <h3>Train Name: <span id="train-name"></span></h3>
+                <p>Departure Time: <span id="departure-time"></span></p>
+                <p>Seats Available: <span id="seats-available"></span></p>
+                <p>Price: <span id="price"></span></p>
+                <p>Delay: <span id="delay"></span> minutes</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="path-to-your-javascript-file.js"></script>
+</body>
+</html>
